@@ -33,7 +33,7 @@ body{
     border-radius: 1.937rem !important;
     border: solid 4px #edf0f1;
     background-color: white;
-    padding:16px;
+    padding:16px 16px 32px;
     width: 100%;
     max-width: 388px;
 }
@@ -64,17 +64,15 @@ hr{
     margin: 0 3px;
 }
 
-
 @media screen and (min-width: 414px){
     #text_top{
         font-size: 22px;
     }
+
     #user_ios{
         font-size: 22px;
     }
-    .textSubject{
-        font-size: 15px;
-    }
+
     .textObject{
         font-size: 15px;
     }

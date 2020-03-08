@@ -1,0 +1,91 @@
+/* font */
+@font-face {
+    font-family: 'yekan'; 
+    src:url('font/yekanBakh.ttf') format('truetype');     
+}
+
+*{
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden;
+
+}
+
+/* set font and background color */
+body{
+    font-family: "yekan";
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+/* headline */
+#text_top{
+    margin: 0 10% 0;
+    font-size: 5vw;
+    font-weight: 500;
+    color: #858585;
+    line-height: 1.5;
+    text-align: right;
+    width: 100%;
+}
+/* card */
+.ring{
+    border-radius: 1.937rem !important;
+    border: solid 4px #edf0f1;
+    background-color: white;
+    padding:16px;
+    width: 100%;
+    max-width: 388px;
+}
+/* text ios */
+#user_ios{
+    font-size: 5.7vw;
+    font-weight: 500;
+    color: #858585;
+    margin-right: 13px;
+}
+/* line */
+hr{
+    width: 100%;
+    height: 3px;
+    margin-top: 25px;
+    color: #f6f6f6;
+    margin-bottom: 0em;
+}
+/*object*/
+.textObject{
+    font-size: 3.8vw;
+    color: #858585;
+    text-align: right;
+    margin: 7% 0 0;
+}
+
+.marginImage{
+    margin: 0 3px;
+}
+
+
+@media screen and (min-width: 414px){
+    #text_top{
+        font-size: 22px;
+    }
+    #user_ios{
+        font-size: 22px;
+    }
+    .textSubject{
+        font-size: 15px;
+    }
+    .textObject{
+        font-size: 15px;
+    }
+    #image_ios{
+        width: 63px;
+
+    }
+}
+
+@media screen and (min-width: 690px){
+    #text_top{
+        text-align: center;
+    }
+}
